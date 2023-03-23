@@ -40,4 +40,13 @@ public class Locacao {
         this.necessitaEquipamento = necessitaEquipamento;
     }
     
+    public void cadastrarLocacao() {
+        Locatario l = new Locatario();
+        l.cadastrarLocatario();
+        Quadra q = new Quadra();
+        q.cadastrarQuadra();
+        
+        
+    }
+    
 }
